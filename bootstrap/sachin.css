@@ -1,0 +1,61 @@
+.title{
+    background-color: gray;
+    height: 100px;
+}
+.dashboard{
+    background-color: yellow;
+    height: 552px;
+    padding: 38px;
+}
+.content{
+    background-color: rgb(212, 208, 212);
+  
+    height: 552px;
+}
+.menu{
+    margin-bottom: 27px;
+}
+.logo{
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        margin-left: 10px;
+        margin-top: 5px;
+}
+.bio{
+    padding: 3px;
+}
+.butngroup{
+    padding:28px;
+}
+.butnindi{
+    margin-left: 46px;
+    width: fit-content;
+}
+.gallery{
+    height: 125px;
+    /*width: 125px;*/
+    padding-right: 7px;
+    padding-left: 10px;
+}
+.titleGall{
+    font-size: 28px;
+    margin-top:20px;
+    margin-left: 10px;
+}
+.titleAbout{
+    font-size: 28px;
+    margin-top:30px;
+    margin-left: 10px;
+}
+.two{
+    width:100%;
+}
+.para{
+    padding-left: 10px;
+    width:100%;
+}
+.intext{
+    margin-left: 10px;
+    margin-top: 15px;
+}
