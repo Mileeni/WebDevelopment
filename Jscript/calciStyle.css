@@ -1,0 +1,55 @@
+.CalciOuter{
+    background-color: lightgrey;
+}
+.CalciInner{
+    background-color: black;
+    margin: auto;
+    width: 195px;
+    border-radius: 12px;
+    height: 43vh;
+}
+.res:hover{
+    outline: none;
+}
+.res{
+    background-color:#393b3d;
+    color: white;
+    text-align: end;
+    padding: 22px;
+    width: 151px;
+    border:0px;
+}
+.numBut:hover{
+    outline: none;
+}
+.numBut{
+    padding: 5px;
+    width: 48px;
+    height: 48px;
+    /*border-top-color: black;
+    border-left-color: black;*/
+
+}
+.charBut{
+    outline: none;
+}
+.charBut{
+    padding: 5px;
+    width: 48px;
+    height: 48px;
+    background-color: tomato;
+    
+    outline-color: black;
+}
+.clearbtn:hover:focus{
+    outline: none;
+}
+.clearbtn{
+    width: 195px;
+    padding: 12px;
+    background-color: #cdcfd1;
+}
+.btnGrp{
+    letter-spacing: -3px;
+
+}

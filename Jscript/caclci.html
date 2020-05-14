@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="calciStyle.css" type="text/css">
+    </head>
+    <body class="CalciOuter">
+        <div class="CalciInner" >
+            <div>
+                <input class="res" type="text" name="output"/><br>
+            </div>
+            <div class="btnGrp">
+                <button class="numBut" onclick="updateresult(7)">7</button>
+                <button class="numBut" onclick="updateresult(8)">8</button>
+                <button class="numBut" onclick="updateresult(9)">9</button>
+                <button class="charBut" onclick="updateresult('*')">x</button><br>
+                <button class="numBut" onclick="updateresult(4)">4</button>
+                <button class="numBut" onclick="updateresult(5)">5</button>
+                <button class="numBut" onclick="updateresult(6)">6</button>
+                <button class="charBut" onclick="updateresult('-')">-</button><br>
+                <button class="numBut" onclick="updateresult(1)">1</button>
+                <button class="numBut" onclick="updateresult(2)">2</button>
+                <button class="numBut" onclick="updateresult(3)">3</button>
+                <button class="charBut" onclick="updateresult('+')">+</button><br>
+                <button class="numBut" onclick="updateresult(0)">0</button>
+                <button class="numBut" onclick="updateresult('.')">.</button>
+                <button class="numBut" onclick="show()">=</button>
+                <button class="charBut" onclick="updateresult('/')">/</button>
+            
+            
+                <button class="clearbtn" onclick="clearinput()">Clear</button>
+            </div>
+            
+        </div>
+        
+    </body>
+    <script>
+        function updateresult(a) {
+
+            document.getElementsByName('output')[0].value +=  a;
+        }
+
+        function show(){
+
+
+            var dd = document.getElementsByName('output')[0].value;
+
+            var cc = eval(dd)
+
+
+            document.getElementsByName('output')[0].value = cc;
+        }
+
+
+        function clearinput(){
+
+            document.getElementsByName('output')[0].value="";
+        }
+    </script>
+
+</html>
